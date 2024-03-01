@@ -10,8 +10,7 @@ Crafted with meticulous attention to detail, this New Age Website not only showc
 Embrace the future of web design with this Bootstrap-powered creation, where style meets functionality in perfect harmony. 🚀💻
 
 <strong><h3>Preview</strong></h3>
-![home](https://github.com/Sanket-825/New-Age/assets/123058949/855e7d20-52b5-4c90-9ac9-02773d3a1f4b)
-<br>
+![home](https://github.com/Sanket-825/New-Age/assets/123058949/855e7d20-52b5-4c90-9ac9-02773d3a1f4b)<br>
 ![Home1](https://github.com/Sanket-825/New-Age/assets/123058949/3a21f01b-1f2e-41d1-a78b-1a3083e0b8d6)
 <br>
 ![Features](https://github.com/Sanket-825/New-Age/assets/123058949/9a92b7ec-ef60-4eb0-8955-5f9707427340)
