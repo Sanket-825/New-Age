@@ -1,0 +1,68 @@
+.bg-gradient-primary-to-secondary 
+{
+    background: linear-gradient(45deg, #9f1ae2, #2937f0) !important;
+}
+
+.masthead
+{
+    padding-top: 9rem;
+    padding-bottom: 5rem;
+}
+
+.Appbutton
+{
+    height: 3rem;
+}
+
+.small_logo
+{
+    height: 3rem;
+    
+}
+
+.sectionPadding
+{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.feature_icon
+{
+    font-size: 4rem;
+}
+
+.text_gradient
+{
+    background: -webkit-linear-gradient(#9f1ae2,#2937f0 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cta
+{
+    position: relative;
+    padding: 15rem 0;       /*  padding top and bottom is 15 rem and padding right and left is 0  */
+    background-image: url(../img/bg.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.shadow
+{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0,0,0.5);
+    z-index: 0;
+}
+.container
+{
+    position: relative;
+    z-index: 1;
+}
+.modal-backdrop
+{
+    z-index: 1  !important;
+}

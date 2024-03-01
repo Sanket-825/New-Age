@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Age</title>
+    <link rel="stylesheet" href="./assets/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/styles/simple-line-icons.css">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+<body>
+
+    <nav
+        class="navbar navbar-expand-sm navbar-light bg-white fixed-top"
+    >
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">New Age</a>
+            <button
+                class="navbar-toggler d-lg-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home" aria-current="page"
+                            >Home
+                            <span class="visually-hidden">(current)</span></a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#download">Download</a>
+                    </li>
+                </ul>
+                <button class="btn btn-primary px-3 rounded-pill " data-bs-toggle="modal" data-bs-target="#ContactForm">
+                    <i class="icon-social-spotify"></i>
+                    <span class="small">Send Feedback</span>
+                </button>
+                <!-- Feedback model starts  -->
+                <div
+                    class="modal fade"
+                    id="ContactForm"
+                >
+                    <div
+                        class="modal-dialog modal-dialog-scrollable modal-dialog-centered "
+                        role="document"
+                    >
+                        <div class="modal-content">
+                            <div class="modal-header bg-gradient-primary-to-secondary">
+                                <h5 class="modal-title text-white" id="modalTitleId">
+                                    Send Feedback
+                                </h5>
+                                <button
+                                    type="button"
+                                    class="btn-close"
+                                    data-bs-dismiss="modal"
+                                    aria-label="Close"
+                                ></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-floating mb-2">
+                                    <input type="text" class="form-control" id="name" placeholder="Enter your Name"/>
+                                    <label class="text-muted ms-1" for="name">Full Name</label>
+                                </div>
+            
+                                <div class="form-floating mb-2">
+                                    <input type="email" class="form-control" id="email" placeholder="Enter your email"/>
+                                    <label class="text-muted ms-1" for="email">Email</label>
+                                </div>
+                                
+                                <div class="form-floating mb-2">
+                                    <input type="number" class="form-control" name="phone" id="phone" placeholder="enter phone number">
+                                    <label class="text-muted ms-1" for="phone">Phone Number</label>
+                                </div>
+            
+                                <div class="form-floating mb-2">
+                                    <textarea class="form-control" name="message" id="message" placeholder="Enter the message" style="height: 10rem;"></textarea>
+                                    <label class="text-muted ms-1" for="message">Message</label>
+                                </div>
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary bg-gradient w-100 rounded-pill">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Feedback model starts  -->
+            </div>
+        </div>   
+    </nav>
+
+    
+        <!-- home starts  -->
+
+        <header class="masthead bg-light" id="home">
+            <div class="container">
+                <div class="row align-items-center">
+    
+                    <!-- first col  -->
+                    <div class="col-lg-6">
+                        <div class="mb-4 text-center text-lg-start">
+                            <h1 class="display-1 lh-1 mb-3">
+                                Showcase your app beautifully
+                            </h1>
+                            <p class="lead fw-normal mb-5">Launch your mobile app landing page faster with this free,open source theme from woeld!</p>
+                            <a class="me-3" href="#">
+                                <img class="Appbutton" src="./assets/img/google-play-badge.png" alt="google play image">
+                            </a>
+                            <a href="#">
+                                <img class="Appbutton" src="./assets/img/app-store-badge.png" alt="app store image">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- first col end  -->
+    
+                    <!-- second col  -->
+                    <div class="col-lg-6 text-center text-lg-end">
+                        <img class="w-75" src="./assets/img/phone.png" alt="">                    
+                    </div>
+                    <!-- second col end  -->
+                </div>
+            </div>
+        </header>
+    
+        <!-- Home End  -->
+        
+        <!-- Ad section   -->
+    
+        <section class="text-center bg-gradient-primary-to-secondary sectionPadding ">
+            <div class="container">
+                <div class="row justify-content-center ">
+                    <div class="col-8">
+                        <div class="h2 fs-1 text-white mb-4">
+                            "An intuitive solution to a common problem that we all face,
+                                wrapped up in a single app!"
+                        </div>
+                        <img src="./assets/img/tnw-logo.png" class="small_logo" alt="..">
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Ad section End  -->
+    
+        <!-- Feature section End  -->
+    
+        <section class="sectionPadding bg-light" id="features">
+            <div class="container px-5">
+                <div class="row align-items-center">
+                    <!-- First col  -->
+                    <div class="col-lg-8 mb-5 order-1">
+                        <div class="container-fluid px-5">
+                            <!-- row 1  -->
+                            <div class="row">
+                                
+                                <div class="col-md-6 mb-5">
+                                    <div class="text-center">
+                                        <i class="icon-screen-smartphone feature_icon d-block mb-3 text_gradient "></i>
+                                        <h3>Device Mockups</h3>
+                                        <p class="text-muted mb-0"> Ready to use HTML/CSS device mockups, no Photoshop
+                                            required!</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="text-center">
+                                        <i class="icon-camera feature_icon mb-3 d-block text_gradient"></i>
+                                        <h3>Flexible use</h3>
+                                        <p class="text-muted mb-0"> Put an image, video, animation, or anything else in the
+                                            screen!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- row 1  End-->
+                            <!-- row 2  -->
+                            <div class="row">
+                                <div class="col-md-6 mb-5">
+                                    <div class="text-center">
+                                        <i class="icon-present feature_icon text_gradient mb-3 d-block"></i>
+                                        <h3>Free to Use</h3>
+                                        <p class="text-muted mb-0"> As always, this theme is free to download and use for any
+                                            purpose!</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <div class="text-center">
+                                        <i class="icon-badge feature_icon text_gradient d-block mb-3"></i>
+                                        <h3>Open Source</h3>
+                                        <p class="text-muted mb-0"> Since this theme is MIT licensed, you can use it
+                                            commercially!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- row 2  End-->
+                        </div>
+                    </div>
+                    <!-- First col End -->
+    
+                    <!-- First col End -->
+                    <div class="col-lg-4 order-0">
+                        <img class="w-100" src="./assets/img/phone.png" alt="phone image" >
+                    </div>
+                    <!-- First col End -->
+                </div>
+            </div>
+        </section>
+
+    <!-- Feature section End  -->
+
+    <!-- More section End  -->
+
+        <section class="sectionPadding">
+            <div class="container px-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 ">
+                        <h2 class="display-4 mb-4">Enter a new web of design</h2>
+                        <p class="lead text-muted fw-normal mb-3">
+                            This section is perfect for featuring some information about your
+                            application, why it was built, the problem it solves, or anything
+                            else! There's plenty of space for text here, so don't worry about
+                            writing too much.
+                          </p>
+                    </div>
+                    <div class="col-lg-5 px-5">
+                        <img class="img-fluid rounded-circle" src="./assets/img/photo-screen.jpeg" alt="screen image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- More section End  -->
+
+    <!-- Download section 1 End  -->
+
+        <section class="cta" id="download">
+            <div class="shadow"></div>
+            <div class="container">
+                <h2 class="fw-normal display-1 text-white mb-4 ">Stop Waiting <br> Stop Building</h2>
+                <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="#">Download Free</a>
+            </div>
+        </section>
+
+    <!-- Download section 1 End  -->
+    
+    <!-- Download section 2 End  -->
+
+        <section class="sectionPadding bg-gradient-primary-to-secondary" id="download">
+            <div class="container">
+                <h2 class="text-center text-white mb-4">Get the app now!</h2>
+                <div class="text-center">
+
+                    <a class="me-3 lg-3" href="#">
+                        <img class="Appbutton" src="./assets/img/google-play-badge.png" alt="google play badge image">
+                    </a>
+
+                    <a class="lg-3" href="#">
+                        <img class="Appbutton" src="./assets/img/app-store-badge.png" alt="app store badge image">
+                    </a>
+
+                </div>                
+            </div>
+        </section>
+
+<!-- Download section 2 End  -->
+
+
+<!-- Footer section starts  -->
+
+        <footer class="bg-black text-center py-5">
+            <div class="container">
+                <div class="text-white-50 small">
+                    <div class="mb-2">
+                         &copy New Age 2024.
+                    </div>
+                        <a class="text-white-50 text-decoration-none" href="#">Privacy</a>
+                        <span class="mx-1">-</span>
+                        <a class="text-white-50 text-decoration-none" href="#">Terms</a>
+                        <span class="mx-1">-</span>
+                        <a class="text-white-50 text-decoration-none" href="#">FAQ</a>
+                </div>
+            </div>
+        </footer>
+
+<!-- Footer Section End  -->
+
+    <script src="./assets/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
