@@ -3,7 +3,7 @@
 
 Exciting news! I'm thrilled to introduce my latest creation – a cutting-edge New Age Website developed entirely with Bootstrap! 🌐✨
 
-This responsive web masterpiece seamlessly blends innovation and user-centric design, all thanks to the powerful features of Bootstrap. The framework's flexibility and responsiveness ensure an optimal viewing experience across a spectrum of devices, from desktops to tablets and smartphones.
+This responsive web masterpiece seamlessly blends innovation and user-centric design, all thanks to the powerful features of Bootstrap. The framework flexibility and responsiveness ensure an optimal viewing experience across a spectrum of devices, from desktops to tablets and smartphones.
 
 Crafted with meticulous attention to detail, this New Age Website not only showcases a modern aesthetic but also prioritizes user accessibility and engagement. Bootstrap's sleek components and grid system lend a polished look, while its intuitive responsiveness guarantees a seamless journey for visitors, regardless of their preferred device.
 
